@@ -6,8 +6,9 @@ using namespace std;
 //compare 1st value with 3rd, if needed swap
 //and so on till size-1
 //therefore two loops are nested
-//i for main reference index with which other index values are compares i.e. j index
+//i for main reference index with which other index values are compared i.e. j index
 
+//define sorting function
 void selection_sort(int arr[], int size)
 {
     for (int i=0; i<size; i++)
@@ -32,6 +33,7 @@ void selection_sort(int arr[], int size)
     }
 }
 
+//driver's code
 int main()
 {
     int arr[]={7,4,5,2,6,3,3};
