@@ -46,6 +46,7 @@ int main()
         cout << arr[i] << " ";
     }
     cout << endl;
+    
     selection_sort(arr,size);
    
    //print sorted array
